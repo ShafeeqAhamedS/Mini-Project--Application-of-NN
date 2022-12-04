@@ -1,6 +1,5 @@
 # Mini-Project--Application-of-NN
 
-## Project Title:
 <h1 align="center">Prediction of Liver Cirrhosis</h1>
 
 ## Project Description:
@@ -42,7 +41,7 @@ import seaborn as sns
 <h3 align="center">Read & Basic info about Dataset</h3>
 
 ```py
-df = pd.read_csv("/content/drive/MyDrive/Colab Notebooks/Semester 3/19AI403 _Intro to DS/Mini_Project/Liver.csv")
+df = pd.read_csv("./Liver.csv")
 df
 df.info()
 df.describe()
@@ -52,7 +51,8 @@ df.columns
 
 ```py
 df.isnull().sum()
-df['Albumin_and_Globulin_Ratio'] = df['Albumin_and_Globulin_Ratio'].fillna(df['Albumin_and_Globulin_Ratio'].mean())
+df['Albumin_and_Globulin_Ratio'] = 
+   df['Albumin_and_Globulin_Ratio'].fillna(df['Albumin_and_Globulin_Ratio'].mean())
 df.isnull().sum()
 ```
 <h3 align="center">Check for Duplicate Values & Remove them</h3>
@@ -99,7 +99,7 @@ y
 ```py
 from sklearn.model_selection import train_test_split
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.30, random_state=101)
+X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.30,random_state=101)
 print("Training sample shape =",X_train.shape)
 print("Testing sample sample =",X_test.shape)
 ```
@@ -128,14 +128,9 @@ print('Classification Report: \n', classification_report(y_test,log_predicted))
 <h3 align="center">Testing Custom Inputs</h3>
 
 ```py
-pred = reg.predict([[25,0,0.1,0.1,44,4,8]])
-if(pred == 1):
-  print("Infected with Liver Cirrohisis")
-else:
-  print("Not Infected with Liver Cirrohisis")
-  
-pred = reg.predict([[50,1,5,1,200,50,50]])
-if(pred == 1):
+pred_0 = reg.predict([[25,0,0.1,0.1,44,4,8]])
+pred_1 = reg.predict([[50,1,5,1,200,50,50]])
+if(pred_0 == 1 or pred_1 ==1):
   print("Infected with Liver Cirrohisis")
 else:
   print("Not Infected with Liver Cirrohisis")
@@ -149,7 +144,10 @@ else:
 ![image](https://user-images.githubusercontent.com/93427237/205485806-e91a292d-7378-4246-92b4-a45094723f52.png)
 
 #### Info
-![image](https://user-images.githubusercontent.com/93427237/205485793-1ecdb537-e2e4-440a-9e93-d4d1ee675255.png)
+<img width = 375 src="https://user-images.githubusercontent.com/93427237/205485793-1ecdb537-e2e4-440a-9e93-d4d1ee675255.png"></img>
+
+</br>
+</br>
 
 #### Descrption
 ![image](https://user-images.githubusercontent.com/93427237/205485815-7e905927-3ff4-46ee-8c02-3d7e65797ab0.png)
@@ -178,13 +176,34 @@ else:
 #### Afer Encoding
 ![image](https://user-images.githubusercontent.com/93427237/205483239-61d83fe4-a414-457d-94e9-4f29d04b5064.png)
 
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+
 <h3 align="center">Correlation Values</h3>
 
 #### Correlation
+
 ![image](https://user-images.githubusercontent.com/93427237/205483210-f9c4ea6e-1cf0-41c3-81ff-6300ec9212a8.png)
 
 #### Dataset after dropping uncorrelated values
 ![image](https://user-images.githubusercontent.com/93427237/205483223-81baa694-fa42-478c-8fad-610b72c36d57.png)
+
+</br>
+</br>
+</br>
+</br>
 
 <h3 align="center">Splitting Dataset</h3>
 
@@ -242,7 +261,7 @@ else:
 * These measures can be implemented in the next steps and our model will be more accuracte.
 ## Result:
 Thus a MLP is trained to classify whether a patient is infected with Liver Cirrohsis or Not based various blood test results with nearly **75%(74.269%)** accuracy 
-
+Refer COlab File <a href = "https://colab.research.google.com/drive/1yTXT1njguDQiC7B_c83ppTQaFFpxPNve#scrollTo=9-iVZD6qV9jx">HERE</a>
 <h2 align="right">A Project By:</h1>
 <h3 align="right">Shafeeq Ahamed.S - 212221230092</h3>
 <h3 align="right">Virgil Jovita.A - 212221240062</h3>
