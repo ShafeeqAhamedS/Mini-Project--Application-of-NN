@@ -261,7 +261,7 @@ else:
 * These measures can be implemented in the next steps and our model will be more accuracte.
 ## Result:
 Thus a MLP is trained to classify whether a patient is infected with Liver Cirrohsis or Not based various blood test results with nearly **75%(74.269%)** accuracy 
-Refer COlab File <a href = "https://colab.research.google.com/drive/1yTXT1njguDQiC7B_c83ppTQaFFpxPNve#scrollTo=9-iVZD6qV9jx">HERE</a>
+Refer Colab File <a href = "https://colab.research.google.com/drive/1yTXT1njguDQiC7B_c83ppTQaFFpxPNve#scrollTo=9-iVZD6qV9jx">HERE</a>
 <h2 align="right">A Project By:</h1>
 <h3 align="right">Shafeeq Ahamed.S - 212221230092</h3>
 <h3 align="right">Virgil Jovita.A - 212221240062</h3>
