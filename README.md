@@ -264,6 +264,4 @@ Thus a MLP is trained to classify whether a patient is infected with Liver Cirro
 Refer Colab File <a href = "https://colab.research.google.com/drive/1yTXT1njguDQiC7B_c83ppTQaFFpxPNve#scrollTo=9-iVZD6qV9jx">HERE</a>
 <h2 align="right">A Project By:</h1>
 <h3 align="right">Shafeeq Ahamed.S - 212221230092</h3>
-<h3 align="right">Virgil Jovita.A - 212221240062</h3>
 <h3 align="right">Sanjay Kumar.S.S - 212221240048</h3>
-<h3 align="right">Ezhilmathi.R - 212221230026</h3>
