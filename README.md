@@ -1,5 +1,3 @@
-# Mini-Project--Application-of-NN
-
 <h1 align="center">Prediction of Liver Cirrhosis</h1>
 
 ## Project Description:
